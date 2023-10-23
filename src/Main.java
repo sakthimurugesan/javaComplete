@@ -1,20 +1,20 @@
-import java.util.*;
-import java.util.Calendar;
-import java.util.regex.*;
-class Main
+/**
+ * Main
+ */
+class Hello
 {
-public static void main(String args[])
-{
-Scanner sc=new Scanner(System.in);
-String s=sc.nextLine();
-String a="^[7-9]\\d{9}";
-if(Pattern.matches(a,s))
-{
-System.out.println(s+" :Valid Number");
+    private void sayHello()
+    {
+        System.out.print("Hello !!!");
+    }
+    Hello()
+    {
+        this.sayHello();
+    }
 }
-else
-{
-System.out.println(s+" :Invalid Number");
-}
-}
+public class Main {
+
+    public static void main(String[] args) {
+        Hello h=new Hello();
+    }
 }

@@ -62,7 +62,10 @@
  */
 public class a_006_literals {
 public static void main(String[] args) {
-   
+   int a=10_000_10;
+   double d=102_21.0_00;
+   float f=102_21.12_52f;
+   double l=1000e5;
 }
     
 }
