@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Enter your username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter your password">
+    <br>
+    <button onclick="validateLogin()">Login</button>
+    <p id="message"></p>
+
+    <script>
+        function validateLogin() {
+            // Get the values entered by the user
+            var enteredUsername = document.getElementById("username").value;
+            var enteredPassword = document.getElementById("password").value;
+
+            // Define the correct username and password
+            var correctUsername = "sakthi";
+            var correctPassword = "helloworld";
+
+            // Check if the entered username and password are correct
+            if (enteredUsername === correctUsername && enteredPassword === correctPassword) {
+                // Display a welcome message
+                document.getElementById("message").innerHTML = "Welcome, " + enteredUsername + "!";
+            } else {
+                // Display an error message for invalid input
+                document.getElementById("message").innerHTML = "Invalid username and password. Please try again.";
+            }
+        }
+    </script>
+</body>
+</html>
