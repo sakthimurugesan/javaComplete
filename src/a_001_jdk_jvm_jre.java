@@ -1,4 +1,7 @@
 import java.util.Scanner;
+/*
+ @author sakthi
+ * */
 import java.text.DecimalFormat;
 class a_001_jdk_jvm_jre
 {

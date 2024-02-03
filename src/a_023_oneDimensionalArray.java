@@ -9,6 +9,10 @@ public class a_023_oneDimensionalArray {
         Scanner in=new Scanner(System.in);
         int arr[]={1,2,3,4,5};
         int arr2[]=arr;
+        int arr3[]=new int[]
+        {
+            1,2,3,4,5,6
+        };
         // if arr2 is modified arr will also be modified
         // this will not happen in variable
         // because here we are using new constructor to allocate spaces and 
