@@ -2,7 +2,7 @@
 // You are using Java
 import java.util.*;
 
-class Main {
+class a_005_IntegerFloatLongClass {
     public static void main(String[] args) {
         Scanner n1 = new Scanner(System.in);
         int n = n1.nextInt();
